@@ -8,7 +8,7 @@ padding: 40px;
 gap: 16px;
 background: #1f1f1f;
 border-radius: 8px;
-
+font-weight: 500;
 `
 
 export const CardImg = styled.img`
@@ -29,6 +29,7 @@ export const Cardh3 = styled.h3`
 export const CardP = styled.p`
     font-size: 14px;
     color: hsl(0, 0%, 60%);
+    
 `
 export const CardButton = styled.button`
     font-size: 14px;
@@ -37,11 +38,14 @@ export const CardButton = styled.button`
     padding-block: 8px;
     border-radius: 8px;
     color: white;
-    
-    :hover {
-    background:hsl(75, 94%, 57%) ;
-  }
+    &:hover {
+        background:hsl(75, 94%, 57%);
+        color: #1f1f1f;
+    }
 `
+
+
+
 
 
 
